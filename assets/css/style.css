@@ -47,6 +47,7 @@ h1{
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .Leftbox1{
@@ -163,6 +164,7 @@ h1{
 .picture1{
   text-align: center;
   background-color: blue;
+  fit-content: fill;
 }
 
 .container4 {
@@ -250,9 +252,19 @@ section1 {
   display: grid;
 }
 
-
+.html{
+  box-sizing: border-box;
+}
 
 }
+
+
+@media (min-width: 600px) {
+  p {
+    font-size: 1.25rem;
+  }
+}
+
 
 @media screen and (max-width: 600px) {
     .column {
