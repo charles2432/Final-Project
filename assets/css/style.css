@@ -83,7 +83,16 @@ h1{
   text-align: left;
 }
 
+.bandlist1{
+  text-align: center;
+}
+
 .subR{
+  color: white;
+  background-color: blue;
+}
+
+.subR1{
   color: white;
   background-color: blue;
 }

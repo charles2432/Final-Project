@@ -11,4 +11,16 @@ $(document).ready(function() {
   $(".Fone").hide(); //this is going to hide all the steps.
 });
 
+
+
+var x = myFunction(4, 3);   // Function is called, return value will end up in x
+
+function myFunction(a, b) {
+  return a * b;             // Function returns the product of a and b
+}
+
+
+var films = ["The Two Towers", "Return Of The King", "Fellowship Of The Ring"];
+
+
 }); //this closes .ready
